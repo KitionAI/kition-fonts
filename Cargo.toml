@@ -1,0 +1,16 @@
+[package]
+name = "kition-fonts"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+rust-version = "1.95"
+repository = "https://github.com/KitionAI/kition-fonts"
+description = "The font manifest of the fonts Kition's kit editors serve to their engines, with checks on every file."
+publish = false
+
+[dev-dependencies]
+sha2 = "0.10"
+ttf-parser = "0.25"
+
+[lints.rust]
+unsafe_code = "forbid"
